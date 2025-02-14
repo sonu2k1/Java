@@ -4,19 +4,23 @@ public class SubArrays {
         for(int i=0;i<arr.length;i++){
             int start=i;
               
-            int sum=arr[i]+arr[j]+arr[k];
+            
     
             for(int j=i;j<arr.length;j++){
                 int end=j;
                 for(int k=start;k<=end;k++){
                     System.err.print(arr[k]+" ");
+                    // int sum= arr[i]+arr[k];
+                    // System.out.print(sum);
                 }
+              
               ts++;
               System.out.println();
+          
               
             }
            System.out.println();
-           System.out.println(sum);
+       
         }
         System.out.println("Total subarrays : "+ts);
     }

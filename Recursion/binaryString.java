@@ -12,6 +12,6 @@ public class binaryString {
         }
     }
     public static void main(String[] args) {
-printBinString(3, 0, "");
+           printBinString(3, 0, "");
     }
 }

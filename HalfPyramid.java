@@ -14,7 +14,7 @@ public class HalfPyramid {
                 System.out.print(" ");
             }
             for(int j=1;j<=i;j++){
-                System.out.print("*");
+                System.out.print(j);
             }
             System.out.println();
         }    
@@ -49,7 +49,7 @@ public class HalfPyramid {
         int counter = 1;
         for(int i=1;i<=n;i++){
             for(int j=1;j<=i;j++){
-                System.out.print(counter+" ");
+                System.out.print(" *");
                 counter++;
             }
             System.out.println();
@@ -168,14 +168,14 @@ public class HalfPyramid {
 
     public static void main(String[] args){
 
-       // inverted_Pyramid(4);
+        inverted_Pyramid(5);
         //inv_pyr_num(5);
-      //  floyd_tri(5);
+       floyd_tri(5);
       
       //zero_one(5);
       //Butterfly(5);  
     //solid_Rhombus(5);
     //hollow_Rhombus(5);
-    Diamond(5);
+  //  Diamond(5);
     }
 }

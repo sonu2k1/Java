@@ -16,3 +16,8 @@ public class Kadans {
            Kadans(arr);
         }
 }
+
+
+// use for sum i
+
+//Time complexity => O(n)

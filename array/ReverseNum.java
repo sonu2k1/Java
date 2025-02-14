@@ -10,7 +10,7 @@ public class ReverseNum {
             numbers[first]=temp;
 
             first++;
-            last--;
+           last--;
         }
     }
     public static void main(String[] args){
