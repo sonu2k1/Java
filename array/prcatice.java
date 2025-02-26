@@ -3,17 +3,20 @@ import java.util.*;
 
 public class prcatice {
     public static void main(String[] args){
-        int arr[] = new int[50];
-        // int number[] = {1,2,3,4,5};
-       // String name[] = {"Sonu","Atul","Ayush"};
-        // Scanner sc = new Scanner(System.in);
-        // arr[0] = sc.nextInt();
-        // arr[1] = sc.nextInt();
-        // arr[2] = sc.nextInt();
+        int n=5;
+      for(int i=0;i<n;i++){
+        // System.out.println(i);
 
-        System.out.println(7>>2);
-        // System.out.println("length of arr" +arr[1]);
-        // System.out.println("length of arr" +arr[2]);
-//      System.out.println("length of name" +name.length);
+        for(int j=n-i;j>0;j--){
+        //    System.out.print(j);
+           System.out.print(" ");
+        }
+
+        for(int j=0;j<=i;j++){
+        System.out.print("*");
+        }
+
+        System.out.println();
+      }
     }
 }

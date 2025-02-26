@@ -12,7 +12,7 @@ public class StackUsingQueue {
     public static boolean isEmpty(){
         return q1.isEmpty() && q2.isEmpty();
     }
-
+//add
     public static void push(int data){
         if(!q1.isEmpty()){
             q1.add(data);
@@ -21,10 +21,10 @@ public class StackUsingQueue {
         }
     }
 
-    public  static void pop(){
+    public  static int pop(){
 
         if (isEmpty()) {
-            System.out.println("Queue is empty");
+            System.out.println("Stack is empty");
             return -1;
         }
 
@@ -34,15 +34,15 @@ public class StackUsingQueue {
         if (!q1.isEmpty()) {
             while (!q1.isEmpty()) {
                 top = q1.remove();
-                if (!q1.isEmpty()) {
+                if (q1.isEmpty()) {
                     break;
                 }
                 q2.add(top);
             }
-        }else{
+        }else{ //case -2 
             while (!q2.isEmpty()) {
                 top = q2.remove();
-                if (!q2.isEmpty()) {
+                if (q2.isEmpty()) {
                     break;
                 }
                 q1.add(top);
@@ -52,6 +52,13 @@ public class StackUsingQueue {
     }
 
     public static int peek(){
+     if(isEmpty()){
+        System.out.println("Stack Empty");
+        return -1;
+     }   
+      int top = -1; 
+
+    if(!q1.isEmpty()){
         while (!q1.isEmpty()) {
             top = q1.remove();
            
@@ -67,6 +74,7 @@ public class StackUsingQueue {
        return top;
 
     }
+}
 
     public static void main(String[] args) {
         Stack s = new Stack();
