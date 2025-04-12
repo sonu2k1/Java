@@ -23,10 +23,25 @@ public class Insertion {
         }
         curr.eow = true;
     }
+
+    public static boolean search(String key){ //O(L) l=length of word
+        Node curr = root;
+        for(int level=0;level<key.length();level++){
+            int idx = key.charAt(level) - 'a';
+            if (curr.children[idx]==null) {
+                curr.children[idx] = new Node();
+            }
+            curr = curr.children[idx];
+        }
+          return curr.eow == true;
+    }
+
     public static void main(String[] args) {
         String words[] = {"the", "a", "there", "any", "thee"};
-        for(int i=0;i<words.length();i++){
+        for(int i=0;i<words.length;i++){
             insert(words[i]);
         }
+        System.out.println(search("the"));
+        System.out.println(search("thor"));
     }
 }
