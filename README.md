@@ -18,6 +18,7 @@ This repository includes Java implementations of:
 - Heaps
 - Hashing
 - Graphs (Adjacency List & Matrix)
+- Dynamic Programing
 
 ### 🧩 Algorithms
 - Sorting (Bubble, Selection, Insertion, Merge, Quick, Heap)
