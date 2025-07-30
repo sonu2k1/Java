@@ -28,8 +28,8 @@ This repository includes Java implementations of:
 - Greedy Algorithms
 - Graph Algorithms (DFS, BFS, Dijkstra’s, Prim’s, Kruskal’s)
 - Sliding Window
-- Two Pointers
-- Union-Find (Disjoint Set)
+- Two Pointers.
+- Union-Find (Disjoint Set).
 
 ---
 
