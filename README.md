@@ -4,7 +4,7 @@ A comprehensive collection of Java programs covering fundamental and advanced **
 
 -----
 
-## 🧠 What’s Inside?
+## 🧠 What’s Inside?..
 
 This repository includes Java implementations of:
 
