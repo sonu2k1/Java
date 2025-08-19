@@ -37,6 +37,6 @@ This repository includes Java implementations of :-
 
 ### Requirements
 
-- Java JDK 8 or above
+- Java JDK 8 or above.
 - Any Java IDE (IntelliJ, Eclipse, VSCode) or CLI setup.
 
