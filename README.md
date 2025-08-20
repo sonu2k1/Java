@@ -31,7 +31,7 @@ This repository includes Java implementations of :-
 - Two Pointers.
 - Union-Find (Disjoint Set).
 
----
+----
 
 ## 🚀 Getting Started
 
