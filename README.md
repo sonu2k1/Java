@@ -1,4 +1,4 @@
-# 📚 Java DSA Programs;
+# 📚 Java DSA Programs:
 
 A comprehensive collection of Java programs covering fundamental and advanced **Data Structures and Algorithms** concepts. Perfect for interview prep, competitive programming, and strengthening your problem-solving skills using Java.
 
